@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "731371383523",
+    "firebase_url": "https://localim-2338c.firebaseio.com",
+    "project_id": "localim-2338c",
+    "storage_bucket": "localim-2338c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731371383523:android:798da162307a896a3e73d6",
+        "android_client_info": {
+          "package_name": "fr.unilim.localim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731371383523-0cgu3777p1vk67p3qprt1lmbv7io52ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbVXqIDZTBxrKBSFVqPjb6yR1axltrjlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731371383523-0cgu3777p1vk67p3qprt1lmbv7io52ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:baselineAligned="false"
+    tools:context=".MainActivity">
+
+    <!-- Liste d'offres -->
+    <ListView android:id="@+id/liste_d_offres"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Bouton de creation d'offre -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:contentDescription="Création d'offre"
+        android:src="@drawable/ic_add_black_24dp"/>
+
+</RelativeLayout>

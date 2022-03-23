@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="10dp">
+
+    <!-- Image de l'offre -->
+    <ImageView android:id="@+id/image"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_img_placeholder" />
+
+    <!-- Titre de l'offre -->
+    <TextView android:id="@+id/titre"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Lieu de l'offre -->
+    <TextView android:id="@+id/lieu"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/image"
+        android:layout_below="@id/titre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
