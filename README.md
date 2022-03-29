@@ -1,6 +1,8 @@
 LocaLim est une application communautaire de partage d'offres et services,
-dans l'esprit du site Le Bon Coin, réalisé dans le cadre d'un projet
-universitaire, à l'Université de Limoges.
+dans l'esprit du site 
+"Le Bon Coin", réalisé dans le cadre d'un projet
+universitaire, à l'Université de Limoges. 
+Projet réalisé en binôme : Olivier Dupont et Antoine Courtens
 
 #
 
